@@ -1,9 +1,11 @@
 # Spectral_angle_mapper
 SAM classifier for remote sensing images.
-Threshold for classification angle < 0.1 radians else unclassified
+Python libraries required -Ratserio,OpenCV,Numpy,Tkinter,matplot.
+Allows user to click on a part of image to act as training data for a class.
+Threshold for classification angle < 0.1 radians else unclassified.
 Steps of execution the python file:
 1. Run the program.
-2. Browse and select the 4 band input image.( If inpput image is not 4 band it will give a erroe message saying " NOT A 4 BAND Image"
+2. Browse and select the 4 band input image.( If inpput image is not 4 band it will give a error message saying " NOT A 4 BAND Image"
 3. Click on "Show TCC&FCC".
     	Two windows will open, titled as Figure1 corresponding to TCC & Figure 2 corresponding to FCC.
 4. Double click on pixels which you want to consider as reference pixels( In FCC image i.e. Figure2)
